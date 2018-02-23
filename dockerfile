@@ -1,5 +1,5 @@
 FROM jenkins/jenkins:lts
-USER root
+USER root 
 RUN apt-get update 
 RUN apt-get install -y maven nano sudo
 RUN curl -fsSL get.docker.com -o get-docker.sh
