@@ -29,6 +29,6 @@ When you run first time, you will need to setup Jenkins user name and password.
 To configure access from Jenkins to Google cloud run in docker instance shell:
 ```bash
  gcloud auth login
- gcloud config set project transact-rules-dev
+ gcloud config set project {your-google-clous-project-name}
 ```
 
