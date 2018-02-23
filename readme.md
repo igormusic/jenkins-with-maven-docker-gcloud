@@ -1,4 +1,4 @@
-# Jenkins docker setup
+# Jenkins docker setup 
 
 This Docker image will add following to base jenkins/jenkins:lts image:
 
